@@ -4263,7 +4263,7 @@ void CGameManager::LoadBattle(const char *FileName) {
                             if (country != nullptr){
                                     g_Scene.SetAreaCountry(AreaID, country);
                                     country->AddArea(AreaID);
-                                
+
                             }
                             ConstructionStr = AreaElement->Attribute("construction");
                             ConstructionType = ConstructionStr != nullptr ?
@@ -8420,7 +8420,7 @@ void CArea::Set_transportSupplying_toArmiesAround(int maxDistance) {
 //            }
             if (g_algorithm.Arr_distance_ofStartAreaToTargetArea[area->ID] < maxDistance ){
                 for (int k = 0; k < area->ArmyCount; ++k) {
-                    area->TargetType = 2;
+//                    area->TargetType = 2;
                     area->Army[k]->HasReceivedSupplies = true;
                 }
             }

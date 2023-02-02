@@ -105,7 +105,7 @@ void CGameState::SelectArea(int AreaID) {
         ShowTerrainInfo(TerrainData[area->Type]);
     }
     //点击地块时，执行“运送补给”的代码。且获得补给的地块都会用箭头标识出来，方便我们查看算法有没有问题。
-    g_Scene[AreaID]->Set_transportSupplying_toArmiesAround(9);
+//    g_Scene[AreaID]->Set_transportSupplying_toArmiesAround(9);
 //    JNI_Fun::Show_testForm("补给携带量",g_algorithm.Arr_distance_ofStartAreaToTargetArea[AreaID]);
 
     g_Scene.SelectArea(AreaID);
