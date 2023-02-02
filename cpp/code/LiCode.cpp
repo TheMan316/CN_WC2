@@ -4261,14 +4261,9 @@ void CGameManager::LoadBattle(const char *FileName) {
                             if (CountryStr != nullptr)
                                 country = FindCountry(CountryStr);
                             if (country != nullptr){
-                                if(AreaID == 535 || AreaID == 537 || AreaID == 540 || AreaID == 517){
-                                    g_Scene.SetAreaCountry(AreaID, g_GameManager.FindCountry("ru"));
-                                    g_GameManager.FindCountry("ru")->AddArea(AreaID);
-                                }
-                                else{
                                     g_Scene.SetAreaCountry(AreaID, country);
                                     country->AddArea(AreaID);
-                                }
+                                
                             }
                             ConstructionStr = AreaElement->Attribute("construction");
                             ConstructionType = ConstructionStr != nullptr ?
