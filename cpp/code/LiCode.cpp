@@ -4437,18 +4437,18 @@ void CGameManager::LoadBattle(const char *FileName) {
             Init_eventsAndResolutions(g_GameManager.CampaignSeriesID);
         }
 
-        for (int i = 0; i < 1; ++i) {
-            Add_newArmy_toArea(535, ArmyDef::Infantry_D1905);
-        }
-        for (int i = 0; i < 1; ++i) {
-            Add_newArmy_toArea(537, ArmyDef::Infantry_D1905);
-        }
-        for (int i = 0; i < 1; ++i) {
-            Add_newArmy_toArea(540, ArmyDef::Infantry_D1905);
-        }
-        for (int i = 0; i < 1; ++i) {
-            Add_newArmy_toArea(517, ArmyDef::Infantry_D1905);
-        }
+//        for (int i = 0; i < 1; ++i) {
+//            Add_newArmy_toArea(535, ArmyDef::Infantry_D1905);
+//        }
+//        for (int i = 0; i < 1; ++i) {
+//            Add_newArmy_toArea(537, ArmyDef::Infantry_D1905);
+//        }
+//        for (int i = 0; i < 1; ++i) {
+//            Add_newArmy_toArea(540, ArmyDef::Infantry_D1905);
+//        }
+//        for (int i = 0; i < 1; ++i) {
+//            Add_newArmy_toArea(517, ArmyDef::Infantry_D1905);
+//        }
 //        for (int i = 0; i < 1; ++i) {
 //            Add_newArmy_toArea(506, ArmyDef::Infantry_D1905);
 //        }
